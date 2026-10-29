@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[NAMA ANDA] — Portofolio Profesional</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        dark: '#0f172a',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- NAVIGASI -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-lg text-dark tracking-tight">[Nama Anda]</a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#tentang" class="hover:text-primary transition">Tentang</a>
+                <a href="#keahlian" class="hover:text-primary transition">Keahlian</a>
+                <a href="#proyek" class="hover:text-primary transition">Proyek</a>
+                <a href="#pengalaman" class="hover:text-primary transition">Pengalaman</a>
+                <a href="#kontak" class="hover:text-primary transition">Kontak</a>
+            </nav>
+            <a href="#kontak" class="bg-primary hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition shadow-sm">Hubungi Saya</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-b from-white to-slate-100 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block bg-blue-100 text-primary text-xs font-semibold px-3 py-1 rounded-full mb-4">Halo, Selamat Datang</span>
+                <h1 class="text-4xl md:text-5xl font-bold text-dark tracking-tight mb-6">
+                    Saya <span class="text-primary">[Nama Anda]</span>, <br>[Profesi Anda]
+                </h1>
+                <p class="text-slate-600 text-lg mb-8 leading-relaxed">
+                    Membantu bisnis dan individu menyelesaikan masalah kompleks melalui solusi digital yang kreatif, efisien, dan berorientasi pada hasil nyata.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#proyek" class="bg-primary hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-xl transition shadow-md shadow-blue-500/20">Lihat Proyek</a>
+                    <a href="#kontak" class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 font-medium px-6 py-3 rounded-xl transition">Mari Berbincang</a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="w-72 h-72 md:w-80 md:h-80 bg-slate-200 rounded-3xl shadow-xl flex items-center justify-center text-slate-400 font-medium border-4 border-white">
+                    [Foto Profil Anda]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG SAYA -->
+    <section id="tentang" class="py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-dark mb-6 text-center">Tentang Saya</h2>
+            <p class="text-slate-600 text-lg leading-relaxed text-center mb-8">
+                Saya memiliki pengalaman lebih dari **[Jumlah Tahun]** tahun di industri **[Nama Industri]**. Fokus saya adalah menciptakan produk yang tidak hanya fungsional dan estetis, tetapi juga memberikan dampak positif yang terukur bagi pengguna dan perusahaan.
+            </p>
+        </div>
+    </section>
+
+    <!-- KEAHLIAN UTAMA -->
+    <section id="keahlian" class="py-20 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-dark mb-12 text-center">Keahlian Utama</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="font-bold text-lg text-dark mb-2">[Keahlian 1]</h3>
+                    <p class="text-slate-600 text-sm">Penjelasan singkat mengenai keeahlian pertama, tools, atau metodologi yang dikuasai.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="font-bold text-lg text-dark mb-2">[Keahlian 2]</h3>
+                    <p class="text-slate-600 text-sm">Penjelasan singkat mengenai keahlian kedua, kerangka kerja, atau teknologi terkait.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="font-bold text-lg text-dark mb-2">[Keahlian 3]</h3>
+                    <p class="text-slate-600 text-sm">Penjelasan singkat mengenai keahlian pendukung atau soft skills yang relevan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYEK PILIHAN -->
+    <section id="proyek" class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-dark mb-12 text-center">Proyek Pilihan</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Proyek 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 flex flex-col">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 font-medium">
+                        [Mockup Proyek 1]
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xl text-dark mb-2">[Nama Proyek Pertama]</h3>
+                            <p class="text-slate-600 text-sm mb-4">Deskripsi singkat mengenai latar belakang proyek, tantangan, dan solusi yang Anda implementasikan.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="bg-slate-100 text-slate-600 text-xs px-2.5 py-1 rounded-md font-medium">Tools 1</span>
+                                <span class="bg-slate-100 text-slate-600 text-xs px-2.5 py-1 rounded-md font-medium">Tools 2</span>
+                            </div>
+                        </div>
+                        <a href="#" class="text-primary font-medium text-sm hover:underline inline-flex items-center gap-1">Lihat Detail &rarr;</a>
+                    </div>
+                </div>
+                <!-- Proyek 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 flex flex-col">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 font-medium">
+                        [Mockup Proyek 2]
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-xl text-dark mb-2">[Nama Proyek Kedua]</h3>
+                            <p class="text-slate-600 text-sm mb-4">Deskripsi singkat mengenai proyek kedua, fitur utama, serta dampak positif yang dihasilkan.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="bg-slate-100 text-slate-600 text-xs px-2.5 py-1 rounded-md font-medium">Tools A</span>
+                                <span class="bg-slate-100 text-slate-600 text-xs px-2.5 py-1 rounded-md font-medium">Tools B</span>
+                            </div>
+                        </div>
+                        <a href="#" class="text-primary font-medium text-sm hover:underline inline-flex items-center gap-1">Lihat Detail &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PENGALAMAN -->
+    <section id="pengalaman" class="py-20 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-dark mb-12 text-center">Pengalaman Kerja</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                        <h3 class="font-bold text-lg text-dark">[Jabatan / Posisi Terakhir]</h3>
+                        <span class="text-sm text-primary font-medium">Bulan Tahun – Sekarang</span>
+                    </div>
+                    <p class="text-slate-500 font-medium text-sm mb-4">[Nama Perusahaan]</p>
+                    <ul class="list-disc list-inside text-slate-600 text-sm space-y-2">
+                        <li>Bertanggung jawab penuh atas pengelolaan dan pengembangan proyek strategis.</li>
+                        <li>Berhasil meningkatkan efisiensi operasional tim hingga 20%.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                        <h3 class="font-bold text-lg text-dark">[Jabatan / Posisi Sebelumnya]</h3>
+                        <span class="text-sm text-slate-500 font-medium">Bulan Tahun – Bulan Tahun</span>
+                    </div>
+                    <p class="text-slate-500 font-medium text-sm mb-4">[Nama Perusahaan Sebelumnya]</p>
+                    <ul class="list-disc list-inside text-slate-600 text-sm space-y-2">
+                        <li>Melakukan riset dan analisis kebutuhan klien untuk solusi produk.</li>
+                        <li>Berkolaborasi dengan lintas divisi dalam eksekusi program kerja.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-2xl md:text-3xl font-bold text-dark mb-4">Mari Terhubung</h2>
+            <p class="text-slate-600 mb-8">Punya proyek menarik atau ingin berdiskusi? Jangan ragu untuk menghubungi saya melalui saluran di bawah ini.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="mailto:email.anda@domain.com" class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 font-medium px-6 py-3 rounded-xl transition shadow-sm">Email Saya</a>
+                <a href="https://linkedin.com/in/username" target="_blank" class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 font-medium px-6 py-3 rounded-xl transition shadow-sm">LinkedIn</a>
+                <a href="https://github.com/username" target="_blank" class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 font-medium px-6 py-3 rounded-xl transition shadow-sm">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-slate-400 py-8 border-t border-slate-800 text-center text-sm">
+        <p>&copy; 2026 [Nama Anda]. Hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>
